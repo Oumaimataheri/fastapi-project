@@ -10,7 +10,7 @@ app=FastAPI()
 
 templates = Jinja2Templates(directory="templates")
 
-data= pd.read_csv('C:/Users/XPS/Desktop/MSD/S3/MLOPS/Lab 2 Dir/production-model-package/regression_model/datasets/test.csv')
+data= pd.read_csv('test.csv')
 
 
 from sklearn.linear_model import LogisticRegression
